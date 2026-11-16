@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Digital Studio - Company Profile</title>
+    <!-- Bootstrap 5.3 CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            padding-top: 120px;
+            padding-bottom: 100px;
+        }
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+        }
+        .card-hover {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <i class="bi bi-layers-half text-info me-2 fs-4"></i>
+                Nusantara<span class="text-info">Digital</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portofolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-info text-dark fw-semibold px-4 rounded-pill" href="#kontak">Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section text-white">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7">
+                    <span class="badge bg-info text-dark px-3 py-2 rounded-pill mb-3 fw-semibold">Solusi Digital Terpercaya</span>
+                    <h1 class="display-4 fw-bold mb-3">Transformasi Bisnis Anda ke Era Digital</h1>
+                    <p class="lead text-white-50 mb-4">Kami membantu perusahaan dan UMKM membangun website modern, aplikasi berbasis web, serta desain antarmuka yang responsif dan berdaya saing tinggi.</p>
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <a href="#layanan" class="btn btn-info text-dark btn-lg px-4 fw-semibold">Lihat Layanan</a>
+                        <a href="#portofolio" class="btn btn-outline-light btn-lg px-4">Karya Kami</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card bg-dark border-secondary text-white p-4 rounded-4 shadow-lg">
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="bg-danger rounded-circle me-2" style="width:12px;height:12px;"></span>
+                            <span class="bg-warning rounded-circle me-2" style="width:12px;height:12px;"></span>
+                            <span class="bg-success rounded-circle" style="width:12px;height:12px;"></span>
+                        </div>
+                        <div class="p-3 bg-black rounded-3 font-monospace small text-info">
+                            <p class="mb-1">&lt;!-- Sistem Informasi Modern --&gt;</p>
+                            <p class="mb-1 text-white">const project = &#123;</p>
+                            <p class="mb-1 ps-3 text-warning">nama: "Web Company Profile",</p>
+                            <p class="mb-1 ps-3 text-warning">framework: "Bootstrap 5.3",</p>
+                            <p class="mb-1 ps-3 text-warning">responsif: true</p>
+                            <p class="mb-0 text-white">&#125;;</p>
+                        </div>
+                        <div class="mt-4 d-flex justify-content-between text-white-50 small">
+                            <span><i class="bi bi-check-circle-fill text-info me-1"></i> 100% Mobile First</span>
+                            <span><i class="bi bi-lightning-charge-fill text-warning me-1"></i> Performa Cepat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h6 class="text-info fw-bold text-uppercase">Apa Yang Kami Lakukan</h6>
+                <h2 class="fw-bold display-6">Layanan Unggulan Kami</h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Solusi pengembangan teknologi informasi yang disesuaikan dengan kebutuhan bisnis Anda.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 rounded-4 card-hover">
+                        <div class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 mb-4">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h4 class="fw-bold">Web Development</h4>
+                        <p class="text-muted mb-0">Pembuatan website profil perusahaan, toko online, hingga sistem informasi berbasis web yang cepat dan aman.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 rounded-4 card-hover">
+                        <div class="feature-icon bg-info bg-opacity-10 text-info rounded-3 mb-4">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h4 class="fw-bold">UI/UX Design</h4>
+                        <p class="text-muted mb-0">Perancangan tampilan antarmuka pengguna yang intuitif, estetis, dan nyaman digunakan di berbagai ukuran layar.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 rounded-4 card-hover">
+                        <div class="feature-icon bg-success bg-opacity-10 text-success rounded-3 mb-4">
+                            <i class="bi bi-database-check"></i>
+                        </div>
+                        <h4 class="fw-bold">Integrasi Sistem</h4>
+                        <p class="text-muted mb-0">Pengelolaan basis data terstruktur serta integrasi API untuk mempermudah operasional bisnis harian.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5">
+                <div>
+                    <h6 class="text-info fw-bold text-uppercase">Portofolio</h6>
+                    <h2 class="fw-bold display-6 mb-0">Proyek Terbaru</h2>
+                </div>
+                <p class="text-muted mb-0 mt-2 mt-md-0">Beberapa hasil pengembangan sistem yang telah kami selesaikan.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden card-hover h-100">
+                        <div class="bg-primary text-white p-5 text-center">
+                            <i class="bi bi-cart4 display-1"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary bg-opacity-10 text-primary mb-2">E-Commerce</span>
+                            <h5 class="card-title fw-bold">Sistem Katalog UMKM</h5>
+                            <p class="card-text text-muted small">Platform pemesanan produk lokal berbasis web responsif menggunakan Bootstrap 5.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden card-hover h-100">
+                        <div class="bg-dark text-info p-5 text-center">
+                            <i class="bi bi-kanban display-1"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-info bg-opacity-10 text-info mb-2">Manajemen</span>
+                            <h5 class="card-title fw-bold">Aplikasi Monitoring Tugas</h5>
+                            <p class="card-text text-muted small">Dashboard pengelolaan jadwal dan beban kerja mahasiswa secara terstruktur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden card-hover h-100">
+                        <div class="bg-success text-white p-5 text-center">
+                            <i class="bi bi-hospital display-1"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-success bg-opacity-10 text-success mb-2">Sistem Informasi</span>
+                            <h5 class="card-title fw-bold">Portal Layanan Kesehatan</h5>
+                            <p class="card-text text-muted small">Sistem pendaftaran pasien dan informasi jadwal dokter berbasis web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang & Kontak Section -->
+    <section id="tentang" class="py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h6 class="text-info fw-bold text-uppercase">Tentang Kami</h6>
+                    <h2 class="fw-bold display-6 mb-3">Membangun Solusi Web yang Efektif & Terukur</h2>
+                    <p class="text-muted mb-4">Nusantara Digital Studio berfokus pada penerapan teknologi web modern untuk membantu pelaku usaha meningkatkan kehadiran digital mereka secara profesional.</p>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm border-start border-info border-4">
+                                <h3 class="fw-bold mb-0">50+</h3>
+                                <small class="text-muted">Proyek Selesai</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm border-start border-primary border-4">
+                                <h3 class="fw-bold mb-0">99%</h3>
+                                <small class="text-muted">Kepuasan Klien</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" id="kontak">
+                    <div class="card border-0 shadow-sm p-4 p-md-5 rounded-4 bg-white">
+                        <h4 class="fw-bold mb-3">Mulai Konsultasi Proyek</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label small fw-semibold">Nama Lengkap</label>
+                                <input type="text" class="form-control" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label small fw-semibold">Alamat Email</label>
+                                <input type="email" class="form-control" placeholder="nama@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label small fw-semibold">Pesan / Kebutuhan</label>
+                                <textarea class="form-control" rows="3" placeholder="Ceritakan kebutuhan website Anda..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark w-100 py-2 fw-semibold">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="fw-bold">Nusantara<span class="text-info">Digital</span></span>
+                    <small class="d-block text-white-50">&copy; 2026 Cyntia Sade Patilangi (108052500068 - IS-08-03)</small>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white-50 text-decoration-none me-3"><i class="bi bi-instagram fs-5"></i></a>
+                    <a href="#" class="text-white-50 text-decoration-none me-3"><i class="bi bi-github fs-5"></i></a>
+                    <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-linkedin fs-5"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
